@@ -1,4 +1,4 @@
-package com.tnsif.inheritance;
+package com.tnsif.inheritance.singlelevel;
 
 public class SLInheritanceDemo {
 
