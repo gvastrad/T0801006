@@ -11,7 +11,7 @@ public String gender;
   public Person() {
   
   }
- 
+
 public Person(int age, String name, float income,String gender) {
 	this.age = age;
 	this.name = name;
