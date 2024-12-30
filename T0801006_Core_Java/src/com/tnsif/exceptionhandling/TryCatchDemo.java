@@ -14,13 +14,13 @@ public class TryCatchDemo {
 		int result;
 		try {
 
-			result = TryCatchExample.performDivision(12, 3);
+			result = TryCatchExample.performDivision(12, 0);
 			if (result != 0)
 				System.out.println("Diviosin is " + result);
 
 			System.out.println("------------------------------");
 
-			result = TryCatchExample.performDivision(12, 0);
+			result = TryCatchExample.performDivision(12, 3);
 			if (result != 0)
 				System.out.println("Division is " + result);
 
