@@ -21,7 +21,7 @@ public class ThreadDemo {
 		thread2.start();
 		try {
 		thread1.join();
-		thread2.join();
+		thread2.suspend();;;;
 		}
 		catch(InterruptedException ie) {
 			System.out.println(ie);
